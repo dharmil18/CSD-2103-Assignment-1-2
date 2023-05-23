@@ -194,10 +194,68 @@ article {
 /* What I Do end */
 
 
+/* All Skills */
+.skills {
+    /* margin: 0; */
+    padding: 0;
+    background-position: center center;
+    height: auto; /* Adjust as needed */
+    background-color: var(--white);
+  }
+  
+  .skills-wrapper {
+    width: 100%;
+    padding: 5%;
+  }
+  
+  .skills-wrapper h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px; /* Adjust as needed */
+    color: var(--green);
+    margin: 0;
+  }
 
+  .skills-line {
+    width: 150px;
+    height: 3px;
+    background: var(--green);
+    margin: 0 auto 0 auto; /* Adjust as needed */
+  }
 
+/* All Skills End */
 
+/* Blog Start */
+.container {
+  display: flex;
+  flex-direction: column;
+  color: var(--black);
+}
 
+.blog, .sidebar {
+  width: 100%;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--green);
+  display: block;
+  margin-bottom: 2px;
+  font-size: 1em;
+}
+
+.fakeimg {
+  display: none;
+}
+
+.blog p {
+  text-align: justify;
+}
+
+/* Blog End */
+
+/* Blog End */
 
 
 /* Responsiveness */
@@ -327,7 +385,7 @@ article {
     }
     .wrapper{
         width: 1170px;
-        margin: 5% auto;
+        margin: 1% auto;
     }
     .wrapper h2{
         text-transform: uppercase;
@@ -398,4 +456,55 @@ article {
     }
 
     /* What I Do End */
+
+    /* All Skills */
+    .skills {
+        margin: 0;
+        padding: 0;
+        background-position: center center;
+        height: auto;
+        background-color: var(--white);
+    }
+    .skills-wrapper{
+        width: 100%;
+        margin: 1% auto;
+    }
+    .skills-wrapper h2{
+        text-transform: uppercase;
+        /* font-family: poppins; */
+        font-weight: bold;
+        text-align: center;
+        font-size: 60px;
+        color: var(--green);
+        margin: 0;
+    }
+    .skills-line {
+        width: 150px;
+        height: 3px;
+        background: var(--green);
+        margin: 0 auto 60px auto;
+    }
+
+    /* Blog Start */
+    .container {
+      flex-direction: row;
+    }
+    
+    .blog {
+      flex: 2;
+      margin-right: 20px;
+    }
+    
+    .sidebar {
+      flex: 1;
+    }
+  
+    .fakeimg {
+      object-fit: contain;
+      display: block;
+      width: auto;
+      height: auto;
+    }
+    /* Blog End */
+  
 }
