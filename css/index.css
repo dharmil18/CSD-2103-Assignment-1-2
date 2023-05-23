@@ -121,6 +121,78 @@ article {
 
 /* Intro Para End */
 
+/* What I Do */
+.services {
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    height: auto; /* Adjust as needed */
+    background-color: #36383F;
+  }
+  
+  .wrapper {
+    width: 100%;
+    padding: 5%;
+  }
+  
+  .wrapper h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px; /* Adjust as needed */
+    color: var(--green);
+    margin: 0;
+  }
+  
+  .single-service {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust as needed */
+    background: var(--green);
+    box-sizing: border-box;
+    padding: 0 15px;
+    padding-bottom: 15px;
+    transition: .5s;
+    overflow: hidden;
+    margin-bottom: 30px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .line {
+    width: 150px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto 20px auto; /* Adjust as needed */
+  }
+  
+  .single-service p {            
+    color: var(--white);
+    font-size: 14px;
+  }
+  
+  .single-service h3 {
+    font-size: 20px; /* Adjust as needed */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--white);
+  }
+  
+  .social {
+    width: 60px;
+    height: 60px;
+    background: var(--white);
+    border-radius: 50%;
+    margin: 5% auto;
+  }
+  
+  .social i {
+    font-size: 30px;
+    padding: 15px;
+    color: var(--green);
+  }
+  
+/* What I Do end */
+
 
 
 
@@ -152,6 +224,7 @@ article {
         justify-content: center;
         align-items: center;
         margin-bottom: 40px;
+        
     }
 
     .product{
@@ -191,7 +264,6 @@ article {
         padding: 40px;
         display: flex;
         justify-content: center;
-        /* color: #eae3d2; */
         color: var(--white);
         opacity: 0;
         transform: translateY(50px);
@@ -242,4 +314,88 @@ article {
     .btn:hover{
         background-color: #eedbaf;
     }
+
+
+    /* What I Do */
+    .services {
+        margin: 0;
+        padding: 0;
+        background-position: center center;
+        height: 65vh;
+        background-color: #36383F;
+        /* font-family: poppins; */
+    }
+    .wrapper{
+        width: 1170px;
+        margin: 5% auto;
+    }
+    .wrapper h2{
+        text-transform: uppercase;
+        /* font-family: poppins; */
+        font-weight: bold;
+        text-align: center;
+        font-size: 60px;
+        color: var(--green);
+        margin: 0;
+    }
+    .single-service {
+        position: relative;
+        width: 31%;
+        height: 320px;
+        background: var(--green);
+        box-sizing: border-box;
+        padding: 0 15px;
+        transition: .5s;
+        overflow: hidden;
+        float: left;
+        margin: 0 10px;
+        text-align: center;
+    }
+    .line {
+        width: 150px;
+        height: 3px;
+        background: #fff;
+        margin: 0 auto 60px auto;
+    }
+    .single-service p{            
+        color: var(--white);
+        font-size: 14px;
+    }
+    .single-service h3 {
+        font-size: 25px;
+        text-transform: uppercase;
+        /* font-family: poppins; */
+        letter-spacing: 1px;
+        color: var(--white);
+    }
+    .social {
+        width: 60px;
+        height: 60px;
+        background: var(--white);
+        border-radius: 50%;
+        margin: 5% auto;
+    }
+    .social i {
+        font-size: 30px;
+        padding: 15px;
+        color: var(--green);
+    }
+    .single-service:hover{
+        box-shadow: 0 10px 15px #3F3D56;
+    }
+    .single-service span {
+        position: absolute;
+        top: 0;
+        left: -110%;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        transition: 1s;
+        transform: skewX(10deg);
+    }
+    .single-service:hover span{
+        left: 110%;
+    }
+
+    /* What I Do End */
 }
