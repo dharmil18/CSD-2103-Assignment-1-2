@@ -1,191 +1,179 @@
 /* Author: Dharmil Chhadva */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-    --white: #f9f9f9;
-    --black: #36383F;
-    --gray: #85888C;
-    --green: #5ec576;
-    --weight1: 200;
-    --weight2: 400;
-    --weight3: 600;
+  --white: #f9f9f9;
+  --black: #36383f;
+  --gray: #85888c;
+  --green: #5ec576;
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
 } /* variables*/
 
 body {
-    background-color: var(--white);
-    font-family: "Poppins", sans-serif;
+  background-color: var(--white);
+  font-family: "Poppins", sans-serif;
 }
 
-.skills {
-    /* margin: 0; */
-    padding: 0;
-    background-position: center center;
-    height: auto; /* Adjust as needed */
-    color: var(--black);
-    background-color: var(--black);
-  }
-  
-  .skills-wrapper {
-    width: 100%;
-    padding: 5%;
-  }
-  
-  .skills-wrapper h2 {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px; /* Adjust as needed */
-    color: var(--green);
-    margin: 0;
-  }
+.work {
+  /* margin: 0; */
+  padding: 0;
+  background-position: center center;
+  height: auto; /* Adjust as needed */
+  color: var(--black);
+  background-color: var(--black);
+}
 
-  .skills-line {
-    width: 150px;
-    height: 3px;
-    background: var(--green);
-    margin: 0 auto 0 auto; /* Adjust as needed */
-  }
+.work-wrapper {
+  width: 100%;
+  padding: 5%;
+}
 
-  .card {
-    background-color: var(--white);
-    color: var(--black);
-    border-radius: 20px;
-    padding: 40px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .card h3 {
-    font-size: 2em;
-  }
-  
-  .card p {
-    font-size: 1.1em;
-    text-align: justify;
-  }
+.work-wrapper h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px; /* Adjust as needed */
+  color: var(--green);
+  margin: 0;
+}
 
-  .card ul {
-    list-style: none;
-  }
-  
-  .card ul li::before {
-    content: "\2022";
-    color: var(--green);
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-  }
-  
-  .card ul {
-    margin-top: 15px;
-  }
+.work-line {
+  width: 150px;
+  height: 3px;
+  background: var(--green);
+  margin: 0 auto 0 auto; /* Adjust as needed */
+}
 
-  .card ul li {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: justify;
-  }
+.card {
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 2em;
+}
+
+.card p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li::before {
+  content: "\2022";
+  color: var(--green);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.card ul {
+  margin-top: 15px;
+}
+
+.card ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
 
 /* Testimonial */
 
 .testimonial {
-    /* margin: 0; */
-    padding: 0;
-    background-position: center center;
-    height: auto; /* Adjust as needed */
-    color: var(--black);
-    background-color: var(--white);
-  }
-  
+  /* margin: 0; */
+  padding: 0;
+  background-position: center center;
+  height: auto; /* Adjust as needed */
+  color: var(--black);
+  background-color: var(--white);
+}
 
 .box p {
-    color: var(--black);
+  color: var(--black);
 }
 
 .box {
-    border-radius: 5px;
-    box-shadow: 0px 30px 40px -20px var(--black);
-    padding: 30px;
-    margin: 20px;  
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--black);
+  padding: 30px;
+  margin: 20px;
 }
-.cyan {
-    border-top: 3px solid var(--green);
-}
-.red {
-    border-top: 3px solid var(--green);
-}
-.blue {
-    border-top: 3px solid var(--green);
-}
-.orange {
-    border-top: 3px solid var(--green);
+
+.green {
+  border-top: 3px solid var(--green);
 }
 
 h3 {
-    color: var(--black);
-    font-weight: var(--weight3);
+  color: var(--black);
+  font-weight: var(--weight3);
 }
 
 /* Testimonial End */
 
-
 /* Responsiveness */
 /* the properties inside a media query will be applied to the web page only when the condition set is valid. */
 @media (min-width: 768px) {
-    .skills {
-        margin: 0;
-        padding: 0;
-        background-position: center center;
-        height: auto;
-        background-color: var(--black);
-        color: var(--white);
-    }
-    .skills-wrapper{
-        width: 100%;
-        margin: 1% auto;
-    }
-    .skills-wrapper h2{
-        text-transform: uppercase;
-        /* font-family: poppins; */
-        font-weight: bold;
-        text-align: center;
-        font-size: 60px;
-        color: var(--green);
-        margin: 0;
-    }
+  .work {
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    height: auto;
+    background-color: var(--black);
+    color: var(--white);
+  }
+  .work-wrapper {
+    width: 100%;
+    margin: 1% auto;
+  }
+  .work-wrapper h2 {
+    text-transform: uppercase;
+    /* font-family: poppins; */
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: var(--green);
+    margin: 0;
+  }
 
-    .skills-line {
-        width: 150px;
-        height: 3px;
-        background: var(--green);
-        margin: 0 auto 60px auto;
-    }
+  .work-line {
+    width: 150px;
+    height: 3px;
+    background: var(--green);
+    margin: 0 auto 60px auto;
+  }
 
-    /* Testimonial */
+  /* Testimonial */
 
-    .row1-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .row2-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .box-down {
-        position: relative;
-        top: 150px;
-    }
-    .box {
-        width: 20%;
-     
-    }
-    .header p {
-        width: 30%;
-    }
-    
+  .row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-down {
+    position: relative;
+    top: 150px;
+  }
+  .box {
+    width: 20%;
+  }
+  .header p {
+    width: 30%;
+  }
 }
