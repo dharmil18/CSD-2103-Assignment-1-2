@@ -32,7 +32,6 @@ ul {
   list-style: none;
 }
 
-
 /* Header */
 .header {
   background-color: var(--green);
@@ -49,15 +48,13 @@ ul {
   margin-left: 30px;
 }
 
-
 /* Nav menu */
-.nav{
+.nav {
   width: 100%;
   height: 100%;
   position: fixed;
   background-color: var(--green);
   overflow: hidden;
-
 }
 .menu a {
   display: block;
@@ -73,17 +70,16 @@ ul {
 
 .nav {
   max-height: 0;
-  transition: max-height .5s ease-out;
+  transition: max-height 0.5s ease-out;
   z-index: 1;
 }
-
 
 /* Menu Icon */
 .hamb {
   cursor: pointer;
   float: right;
   padding: 40px 20px;
-}/* Style label tag */
+} /* Style label tag */
 
 .hamb-line {
   background: var(--white);
@@ -91,17 +87,16 @@ ul {
   height: 2px;
   position: relative;
   width: 24px;
-
 } /* Style span tag */
 
 .hamb-line::before,
 .hamb-line::after {
   background: var(--white);
-  content: '';
+  content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
   width: 100%;
 }
 .hamb-line::before {
@@ -115,8 +110,6 @@ ul {
   display: none;
 } /* Hide checkbox */
 
-
-
 /* Toggle menu icon */
 .side-menu:checked ~ nav {
   max-height: 100%;
@@ -126,11 +119,11 @@ ul {
 }
 .side-menu:checked ~ .hamb .hamb-line::before {
   transform: rotate(-45deg);
-  top:0;
+  top: 0;
 }
 .side-menu:checked ~ .hamb .hamb-line::after {
   transform: rotate(45deg);
-  top:0;
+  top: 0;
 }
 
 /* Footer CSS */
@@ -220,8 +213,7 @@ ul {
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px;
-}   
-
+}
 
 /* Intro Para */
 
@@ -454,30 +446,29 @@ article {
 /* Responsiveness */
 /* the properties inside a media query will be applied to the web page only when the condition set is valid. */
 @media (min-width: 768px) {
-
-  .nav{
+  .nav {
     max-height: none;
     top: 0;
     position: relative;
     float: right;
     width: fit-content;
     background-color: transparent;
-}
-.menu li{
+  }
+  .menu li {
     float: left;
-}
+  }
 
-.menu a:hover {
+  .menu a:hover {
     background-color: var(--white);
     color: var(--green);
-}
+  }
 
-.hamb{
+  .hamb {
     display: none;
-}
+  }
 
-/* Footer CSS */
-.footer-distributed {
+  /* Footer CSS */
+  .footer-distributed {
     position: relative;
     left: 0;
     bottom: 0;
@@ -488,65 +479,65 @@ article {
     font-size: 14px;
     padding: 50px 50px 60px;
     color: #fff;
-}
+  }
 
-.footer-distributed .footer-left {
+  .footer-distributed .footer-left {
     display: inline-block;
     vertical-align: top;
     margin-right: 40px;
     margin-bottom: 40px;
-}
+  }
 
-.footer-distributed h3 {
+  .footer-distributed h3 {
     color: #ffffff;
     font-size: 1.5em;
     font-weight: bold;
     margin: 0 0 10px;
-}
+  }
 
-.footer-distributed .footer-links a {
+  .footer-distributed .footer-links a {
     color: #ffffff;
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
     margin-right: 20px;
     /* transition: ease 0.3s; */
-}
+  }
 
-.footer-distributed .footer-company-name {
+  .footer-distributed .footer-company-name {
     color: var(--white);
     font-size: 14px;
     font-weight: normal;
     margin: 0;
     padding-top: 3%;
-}
+  }
 
-.footer-distributed .footer-right {
+  .footer-distributed .footer-right {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 40px;
-}
+  }
 
-.footer-distributed .footer-company-about {
+  .footer-distributed .footer-company-about {
     color: var(--white);
     font-size: 14px;
     font-weight: normal;
     margin-bottom: 0;
-}
+  }
 
-.footer-distributed .footer-company-about span {
+  .footer-distributed .footer-company-about span {
     display: block;
     color: #ffffff;
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 6px;
-}
+  }
 
-.footer-distributed .footer-icons {
+  .footer-distributed .footer-icons {
     margin-top: 25px;
-}
+  }
 
-.footer-distributed .footer-icons a {
+  .footer-distributed .footer-icons a {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -559,9 +550,7 @@ article {
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
-}   
-
-
+  }
 
   /* Intro Para */
 
