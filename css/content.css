@@ -16,6 +16,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: var(--white);
   font-family: "Poppins", sans-serif;
@@ -713,7 +714,7 @@ h3 {
 
 /* Responsiveness */
 /* the properties inside a media query will be applied to the web page only when the condition set is valid. */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .reverse-container {
     display: flex;
     flex-direction: row-reverse;

@@ -441,11 +441,9 @@ article {
 
 /* Blog End */
 
-/* Blog End */
-
 /* Responsiveness */
 /* the properties inside a media query will be applied to the web page only when the condition set is valid. */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .nav {
     max-height: none;
     top: 0;
