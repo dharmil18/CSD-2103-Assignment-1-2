@@ -249,6 +249,7 @@ ul {
 
 .portfolio-wrapper .title h3 {
   font-size: 1.3em;
+  color: var(--white);
 }
 
 .portfolio-wrapper .title p {
