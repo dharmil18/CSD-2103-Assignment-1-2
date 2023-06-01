@@ -342,7 +342,7 @@ article {
 .top-skills-line {
   width: 150px;
   height: 3px;
-  background: #fff;
+  background: var(--green);
   margin: 0 auto 20px auto; /* Adjust as needed */
 }
 
@@ -689,7 +689,7 @@ article {
   .top-skills-line {
     width: 150px;
     height: 3px;
-    background: #fff;
+    background: var(--green);
     margin: 0 auto 60px auto;
   }
   .single-skill p {
